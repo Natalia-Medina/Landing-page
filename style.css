@@ -35,6 +35,7 @@ header {
 
 .container {
     display: flex;
+    background-color: beige;
   }
 
 .container-text {
@@ -81,8 +82,124 @@ h2 {
     text-align: center;
     display: flex;
     margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 15px;
     justify-content: center;
 }
 
+#info {
+    padding: 50px;
+    max-width: 1800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: beige;
+    gap: 80px;
+}
 
+#info h2 {
+    font-size: 32px;
+    font-weight: 800;  
+}
+
+.info-cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info-card {
+    width: 300px;
+    height: 290px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.info-card img {
+    width: 80px;
+}
+
+.info-card h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.info-card p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    gap: 30px;
+    padding: 10px;
+}
+.redes-contactos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.redes-sociales img {
+    float: left;
+    margin-left: 70px;
+    margin-right: 10px;
+    width: 50px;
+}
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-container img {
+    float: left;
+    margin-left: 70px;
+    margin-right: 10px;
+    width: 25px;
+}
+#iframe {
+    float: right;
+    margin-left: 30px;
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: rgb(220, 217, 198);
+    padding: 20px;
+    text-align: center;
+    margin-top: 320px;
+    height: 180px;
+  }
+  
+  .footer-content {
+    display: inline-block;
+  }
+  
+  .footer-content img {
+    max-width: 100%;
+    height: 150px;
+  }
+
+
+
+ 
+
+
+
+  
+  
+  
+  
